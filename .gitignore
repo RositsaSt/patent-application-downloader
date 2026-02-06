@@ -1,0 +1,47 @@
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Data & generated content
+# =========================
+front_pages/
+data/
+outputs/
+
+# =========================
+# File types (generated / large)
+# =========================
+*.csv
+*.pdf
+*.xlsx
+*.zip
+
+# =========================
+# Python cache & artifacts
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / editor noise
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
