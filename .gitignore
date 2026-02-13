@@ -45,3 +45,7 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# Secrets / keys
+git_secret
+git_secret.pub
